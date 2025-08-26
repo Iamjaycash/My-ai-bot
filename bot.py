@@ -13,8 +13,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # --- API Keys ---
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")  # set in Render/Railway
-OPENAI_KEY = os.getenv("OPENAI_API_KEY")      # set in Render/Railway
+TELEGRAM_TOKEN = os.getenv("8412257526:AAESKCpZmzo38Xcyxk2EDWxwZ8xWsOh9CC0")  # set in Render/Railway
+OPENAI_KEY = os.getenv("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")      # set in Render/Railway
 openai.api_key = OPENAI_KEY
 
 # --- Commands ---
