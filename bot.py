@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 # --- API Keys ---
 TELEGRAM_TOKEN = os.getenv("8412257526:AAESKCpZmzo38Xcyxk2EDWxwZ8xWsOh9CC0")  # set in Render/Railway
-OPENAI_KEY = os.getenv("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")      # set in Render/Railway
+OPENAI_KEY = os.getenv("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")      # set in Render/Railway
 openai.api_key = OPENAI_KEY
 
 # --- Commands ---
